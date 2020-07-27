@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title></title>
+    </head>
+
+    <body>
+        <div class="game">
+            <h3>Blackjack</h3>
+            <div class="game-body">
+                <div class="game-options">
+                    <input id="btnStart" class="btn" type="button" value="start" onclick="startBlackjack()">
+
+                    <input class="btn" type="button" value="hit me" onclick="hitMe()">
+                    
+                    <input class="btn" type="button" value="stay" onclick="stay()">
+                </div>
+
+                <div id="status" class="status"></div>
+
+                <div id="deck" class="deck">
+                    <div id="deckcount">52</div>
+                </div>
+
+                <div id="players" class="players"></div>
+
+                <div class="clear"></div>
+
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
